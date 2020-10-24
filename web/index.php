@@ -43,10 +43,10 @@
 	?>
 <head>  
     <meta charset="utf-8">
-    <title>Julio Griebeler - Web/Software Developer - Java, Python, PHP, Html5, Javascript, AngularJS, Restful, Cloud</title>
+    <title>Julio Griebeler - Fullstack Dev+Ops - Java, Python, HTML5, Javascript, Cloud</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="julio, griebeler, ibm, jx, solucoes, it, ti, web developer, python, java, php, html, fullstack, germany, entwickler, developer">
-    <meta name="description" content="Julio Griebeler. Software, Application, website developer. Works with Java, PHP, Python, Android, HTML5, Javascript">
+    <meta name="description" content="Julio Griebeler. Fullstack Dev+Ops. Java, Python, HTML5, Javascript, Cloud">
     <meta name="url" content="http://www.juliogriebeler.com.br">
     <meta name="author" content="Julio Griebeler - Jx Solucoes">
     <meta name="copyright" content="Julio Griebeler - Jx Solucoes">
