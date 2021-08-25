@@ -26,41 +26,28 @@
     <meta name="state" content="Rio Grande do Sul">
     <meta name="cache-control" content="no-cache">
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60T40F08EY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-60T40F08EY');
+    </script>
+
+    <!-- Google AdSense -->
+    <script data-ad-client="ca-pub-2119720601932412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Google Fonts and styling -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
-    <script data-ad-client="ca-pub-2119720601932412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-        body {
-            background: #333333;
-            color: #eeeeee;
-        }
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/main.css" rel="stylesheet">
 
-        .logo {
-            font-family: 'Allison', cursive;
-            font-size: 110px;
-        }
-
-        h2 {
-            color: #bbbbbb;
-            font-size: 46px;
-            font-family: 'Allison', cursive;
-        }
-        a {
-            color: #777777;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        ul, li {
-            list-style: none;
-            display: inline;
-        }
-    </style>
+    <!-- HTML5Shiv -->
     <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="static/js/html5shiv.min.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -98,9 +85,9 @@
         <span> &copy; Copyright 2021 | Júlio Griebeler </span>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+<script src="static/js/bootstrap.bundle.min.js"></script>
+<!--
+OLD ANALYTICS TAG
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-20685181-7']);
@@ -116,62 +103,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
     })();
-
+-->
 </script>
 </body>
-</html>
-<!--
-	<div class="row">
-		<a href="home"><img src="images/julio.png" alt="desc" style="border:none; margin-top:25px" /></a>
-	</div>
-	<div class="row page_wrap" style="margin-top:-2px">
-		<div class="twelve columns">
-			<div class="row">
-				<div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
-					<div class="twelve columns">
-						<ul id="menu-header" class="nav-bar horizontal">
-							<li class=""><a href="home">Inicio</a></li>
-							<li class=""><a href="works">Trabalhos</a></li>
-							<li class=""><a href="contact">Contato</a></li>
-							<li><a target="_blank" href="https://www.linkedin.com/in/juliogriebeler/en" title="Linkedin"><i class="fa fa-linkedin-square"></i></a></li>
-							<li><a target="_blank" href="https://github.com/juliogriebeler" title="Github"><i class="fa fa-github"></i></a></li>
-							<li><a target="_blank" href="http://stackoverflow.com/users/1684135/j%C3%BAlio-griebeler" title="Stackoverflow"><i class="fa fa-stack-overflow"></i></a></li>
-							
-							<li class="has-flyout">
-								<a href="#"><i class="fa fa-globe"></i></a><a href="#" class="flyout-toggle"></a>
-								<ul class="flyout">
-									<li class="has-flyout"><a href="home&lang=pt">PT</a></li>
-									<li class="has-flyout"><a href="home&lang=de">DE</a></li>
-									<li class="has-flyout"><a href="home&lang=en">EN</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="show-for-large-up"></div>
-			<div class="row">				
-				<div class="heading_dots hide-for-small">
-					<h1 class="heading_supersize">
-						<span class="heading_center_bg">SOBRE MIM</span>
-					</h1>
-				</div>
-				<div class="twelve columns">
-					<p class="welcome_text">Olá! Sou programador, entusiasta de tecnologia<br>e quebro um galho tocando bateria.<br>
-						Atuo como Desenvolvedor Java desde 2012<br>
-						e com design e desenvolvimento web desde 2009.<br>
-						Tenho bons conhecimentos em Java, Python e PHP.<br>
-						Gosto de novas tecnologias, Cloud computing, Arduino e métodos ágeis.</p>
-					</p>
-				</div>
-			</div>
-			<div class="row" style="margin-bottom: 20px">
-				<div class="four columns"></div>
-				<div class="four columns text-center">
-					<strong>2019 - Júlio Griebeler</strong>
-				</div>
-				<div class="four columns"></div>
-			</div>
-		</div>
-	</div>
 </html>

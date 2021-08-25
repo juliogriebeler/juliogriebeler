@@ -1,0 +1,26 @@
+body {
+    background: #333333;
+    color: #eeeeee;
+}
+
+.logo {
+    font-family: 'Allison', cursive;
+    font-size: 110px;
+}
+
+h2 {
+    color: #bbbbbb;
+    font-size: 46px;
+    font-family: 'Allison', cursive;
+}
+
+a {
+    color: #777777;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+}
