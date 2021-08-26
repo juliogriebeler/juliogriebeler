@@ -8,6 +8,16 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60T40F08EY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-60T40F08EY');
+    </script>
+
     <meta charset="utf-8">
     <title>Julio Griebeler - Web/Software Developer - Java, Python, PHP, Html5, Javascript, AngularJS, Restful,
         Cloud</title>
@@ -26,15 +36,6 @@
     <meta name="state" content="Rio Grande do Sul">
     <meta name="cache-control" content="no-cache">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60T40F08EY"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-60T40F08EY');
-    </script>
 
     <!-- Google AdSense -->
     <script data-ad-client="ca-pub-2119720601932412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
